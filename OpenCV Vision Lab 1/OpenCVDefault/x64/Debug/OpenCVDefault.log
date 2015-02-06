@@ -1,0 +1,23 @@
+﻿Build started 2015-02-06 14:12:16.
+     1>Project "F:\Skewl\Vision Par Ordinateur\OpenCV Vision Lab 1\OpenCVDefault\OpenCVDefault.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\OpenCVDetecMov.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Iinclude /I\..\..\include /IC:\opencv\build\include\ /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\OpenCVDetecMov.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Iinclude /I\..\..\include /IC:\opencv\build\include\ /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\OpenCVDetecMov.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt OpenCVDetecMov.cpp Traitement.cpp
+         Traitement.cpp
+         OpenCVDetecMov.cpp
+     1>OpenCVDetecMov.cpp(74): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : see declaration of 'getch'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Skewl\Vision Par Ordinateur\OpenCV Vision Lab 1\x64\Debug\OpenCVDetecMov.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:\lib /LIBPATH:C:\opencv\build\x64\vc10\lib /LIBPATH:lib64 opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_features2d249d.lib opencv_calib3d249d.lib opencv_objdetect249d.lib opencv_contrib249d.lib opencv_legacy249d.lib opencv_flann249d.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\OpenCVDetecMov.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Skewl\Vision Par Ordinateur\OpenCV Vision Lab 1\x64\Debug\OpenCVDetecMov.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Skewl\Vision Par Ordinateur\OpenCV Vision Lab 1\x64\Debug\OpenCVDetecMov.lib" /MACHINE:X64 x64\Debug\OpenCVDetecMov.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Traitement.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'cudart.lib'
+     1>Done Building Project "F:\Skewl\Vision Par Ordinateur\OpenCV Vision Lab 1\OpenCVDefault\OpenCVDefault.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.88
